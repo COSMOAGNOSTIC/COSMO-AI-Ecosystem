@@ -26,5 +26,6 @@ To overcome the inability of sub-agents to access user-uploaded files, COSMO-A e
 ### 4. The "COSMO-A Standard Format"
 All specialist sub-agents within the ecosystem are built according to a codified, mandatory prompt structure. This standard ensures every agent has a clearly defined `CORE IDENTITY`, `PROCESSING DIRECTIVE`, and `OUTPUT FORMAT`, which dramatically improves system reliability and simplifies future development and maintenance.
 
+markdown<br>### 5. System Components & Prompts<br>All agent prompts that define the COSMO-A ecosystem can be found in the dedicated [prompts directory](./prompts).<br>
 ---
 *This project represents an ongoing effort in applied AI systems architecture and prompt engineering.*
