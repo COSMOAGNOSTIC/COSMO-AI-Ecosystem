@@ -35,6 +35,7 @@ All agent prompts that define the COSMO-A ecosystem can be found in the dedicate
 This project emphasizes iterative development based on real-world operational feedback. Key architectural decisions and enhancements are documented in dedicated case studies.
 
 *   [Case Study: Establishing the "Offline Source of Truth" Protocol](./CASE-STUDY-Source-of-Truth-Protocol.md)
+*   [Case Study: Suppressing the "Helpful Assistant" Bias with a "Layer 0" Core Identity](./CASE-STUDY-Helpful-Assistant-Bias.md)
 *   [Case Study: Iterative Development of the Meeting Summarizer Agent](./CASE-STUDY-Meeting-Summarizer-Iteration.md)
 
 * ---
