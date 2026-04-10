@@ -26,7 +26,16 @@ To overcome the inability of sub-agents to access user-uploaded files, COSMO-A e
 ### 4. The "COSMO-A Standard Format"
 All specialist sub-agents within the ecosystem are built according to a codified, mandatory prompt structure. This standard ensures every agent has a clearly defined `CORE IDENTITY`, `PROCESSING DIRECTIVE`, and `OUTPUT FORMAT`, which dramatically improves system reliability and simplifies future development and maintenance.
 
-markdown<br>### 5. System Components & Prompts<br>All agent prompts that define the COSMO-A ecosystem can be found in the dedicated [prompts directory](./prompts).<br>
-markdown<br>## Case Studies & Iterative Development<br><br>This project emphasizes iterative development based on real-world operational feedback. Key architectural decisions and enhancements are documented in dedicated case studies.<br><br>* [Case Study: Iterative Development of the Meeting Summarizer Agent](./CASE-STUDY-Meeting-Summarizer-Iteration.md)<br>
----
+### 5. System Components & Prompts
+All agent prompts that define the COSMO-A ecosystem can be found in the dedicated [prompts directory](./prompts).
+.prompts).
+
+## Case Studies & Iterative Development
+
+This project emphasizes iterative development based on real-world operational feedback. Key architectural decisions and enhancements are documented in dedicated case studies.
+
+*   [Case Study: Establishing the "Offline Source of Truth" Protocol](./CASE-STUDY-Source-of-Truth-Protocol.md)
+*   [Case Study: Iterative Development of the Meeting Summarizer Agent](./CASE-STUDY-Meeting-Summarizer-Iteration.md)
+
+* ---
 *This project represents an ongoing effort in applied AI systems architecture and prompt engineering.*
