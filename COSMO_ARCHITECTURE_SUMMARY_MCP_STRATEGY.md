@@ -1,5 +1,7 @@
 COSMO-AI-ECOSYSTEM: COMPREHENSIVE ARCHITECTURE SUMMARY & MCP INTEGRATION STRATEGY
 
+⚠️ **DISCLAIMER**: This document synthesizes the current COSMO architecture (from README.md, CLAUDE.md, MIGRATION.md) with forward-looking MCP integration strategy. The five-phase roadmap (Phases 1-5) reflects planned architecture, not currently implemented functionality. Phase 1 (GitHub SSOT) is complete; Phases 2-5 are in planning or early development.
+
 === PART 1: COSMO ARCHITECTURE OVERVIEW ===
 
 CORE GOAL & PHILOSOPHY
@@ -259,7 +261,7 @@ By centralizing data governance, authorization, and context management through M
 - Scalable (add new models, new specialists, new data sources without architectural rework)
 - Governable (all data flows through controlled channels; audit trails are automatic)
 - Portable (same behavior across Claude, Gemini, local Gemma, GPT)
-- Resilient (role back to previous prompt versions; data is version-controlled)
+- Resilient (rollback to previous prompt versions; data is version-controlled)
 
 This is why MCP is the current architectural focus for Q2 2026.
 
