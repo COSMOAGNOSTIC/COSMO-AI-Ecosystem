@@ -1,0 +1,37 @@
+# CASE STUDY: Evolution of Multi-Agent LLM Orchestration in a DoD IL5 Environment
+
+## 1. Executive Summary
+This document outlines the architectural evolution of the **COSMO** (Cognitive Operational System for Maritime Operations) AI ecosystem. Operating within a heavily constrained Department of War (DoW) Impact Level 5 (IL5) network, initial monolithic prompt designs suffered from context window collapse and GUI-induced data loss. 
+
+Through iterative engineering, the system was refactored into a modular, Hub-and-Spoke architecture utilizing deterministic Python execution (Pandas) for data, isolated parsing engines for unstructured text, and a dedicated `DEV-AGENT` to manage Retrieval-Augmented Generation (RAG) dependencies and version control.
+
+## 2. The Operational Challenges (IL5 Constraints)
+*   **GUI Overwrites:** The platform's conversational Agent Builder actively hallucinated placeholders and overwrote complex logic during iterative prompting.
+*   **Context Window Collapse:** Attempting to force a single Large Language Model (LLM) to remember 9-part email parsing doctrines while simultaneously executing spreadsheet comparisons caused catastrophic logic failures and timeouts.
+*   **The "Bucket Brigade" Failure:** Passing massive CSV files between textual sub-agents resulted in data amnesia and hallucinations.
+*   **Dependency Fractures:** Child agents (Sub-Agents) frequently failed to process data because they were unaware of the exact format the Parent Agent (Router) was sending them.
+
+## 3. The Architectural Solutions
+
+### A. The "Hub and Spoke" Delegation Model
+We abandoned the monolithic "Brain" pattern in favor of specialized nodes:
+1.  **MASTER PERSONA (The Router/Hub):** Acts as the cognitive partner for the System Architect, synthesizing outputs and drafting correspondence.
+2.  **COSMO_PANDA (The Math Engine):** A standalone node utilizing native Gemini 3.1 Pro Python execution. It bypasses linguistic comparison entirely, utilizing `pandas` dataframes to merge supply spreadsheets (e.g., matching CASREPs) with 100% deterministic accuracy.
+3.  **COSMO_A / COSMO_72 (The Parsers):** Isolated nodes strictly governed by Layer 2 Doctrines to parse unstructured military text (JSNs, Naval Messages) into formatted intelligence reports.
+
+### B. The DEV-AGENT & Strict Version Control
+To bypass the GUI overwrite issue, the active chat window was abandoned as a development environment. A dedicated `DEV-AGENT` was created to act as the compiler and version control system.
+*   **The Codebase Method:** All prompts are written as raw `.txt` files in a local IDE, then uploaded to the DEV-AGENT for compilation.
+*   **Mandatory SOVTs:** The DEV-AGENT is explicitly instructed to append a System Operability Verification Test (SOVT) markdown table to every prompt iteration, detailing the exact test payload, expected output, and failure conditions.
+
+### C. Hybrid RAG for API Contracts
+To solve the Parent/Child dependency fracture, we transformed the DEV-AGENT's Knowledge Base into a strict reference library.
+*   **The Problem:** Hard-coding a rule that forced the Architect to upload the Parent Prompt every time a Child Prompt was edited created massive workflow friction.
+*   **The Solution:** Master Prompts are saved with underscore nomenclature (`COSMO_A_v7.txt`) and strict `###` Markdown headers. These are uploaded to the RAG Knowledge Base.
+*   **The Execution:** When compiling a Sub-Agent, DEV-AGENT uses Vector Search to autonomously retrieve the Parent's exact "throw" logic, ensuring the Sub-Agent's "catch" logic matches perfectly, without the Architect manually uploading the parent file.
+
+## 4. Outcomes & Impact
+1.  **Zero Hallucination Data Syncs:** By routing spreadsheets exclusively to `COSMO_PANDA` for Python execution, supply tracker logic errors were eliminated.
+2.  **Context Preservation:** Stripping spreadsheet logic from `COSMO_72` freed massive token space, allowing for deeper, more accurate parsing of complex email chains.
+3.  **Scalability:** The strict `###` markdown / `.txt` RAG formatting standard ensures that as the ecosystem scales to dozens of sub-agents, dependency mapping remains perfectly accurate.
+4.  **DoD Compliance:** The automated generation of SOVTs bridges the gap between commercial prompt engineering and rigorous DoD systems engineering standards.
