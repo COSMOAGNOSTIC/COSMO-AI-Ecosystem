@@ -5,7 +5,7 @@ The `/archive/` directory is the **long-term knowledge store** for COSMO. It hol
 1. **Active doctrines** from COSMO deployments
 2. **Case studies** documenting architectural decisions
 3. **Meta-patterns** applicable across multiple domains
-4. **Extracted patterns** from Govini, CVN, and other operational domains (as they emerge)
+4. **Extracted patterns** from CVN and other operational domains (as they emerge)
 
 All content is version-controlled in GitHub for audit trail and rollback.
 
@@ -72,7 +72,7 @@ Central catalog of all archived knowledge and patterns.
 ## Case Studies
 
 | Case Study | File | Topic | Key Lesson |
-|------------|------|-------|-----------|
+|------------|------|-------|-----------| 
 | Source of Truth Protocol | `case-studies/source-of-truth-protocol.md` | Why GitHub as SSOT | Versioning prevents architectural drift |
 | Helpful Assistant Bias | `case-studies/helpful-assistant-bias.md` | Anti-pattern | Structure output trumps helpfulness |
 | COSMO-A Standard Format | `case-studies/cosmo-a-standard-format.md` | Consistency | All agents must follow same structure |
@@ -82,7 +82,7 @@ Central catalog of all archived knowledge and patterns.
 
 | Pattern | Domain | Status | Extracted | Purpose |
 |---------|--------|--------|-----------|---------|
-| TBD | Govini Ark / CVN-72 | [ ] PENDING | — | To be identified from active work |
+| TBD | CVN-72 | [ ] PENDING | — | To be identified from active work |
 | TBD | Financial Dashboard | [ ] PENDING | — | To be identified from active work |
 | TBD | Family Ecosystem | [ ] PENDING | — | To be identified from active work |
 ```
@@ -98,7 +98,7 @@ Central catalog of all archived knowledge and patterns.
 4. Write specialist prompt in `/prompts/` following COSMO-A Standard Format
 5. Update `/archive/INDEX.md` with link to new specialist
 
-### If you're integrating with a new platform (e.g., Govini Ark):
+### If you're integrating with a new platform or domain:
 1. Read `/archive/case-studies/source-of-truth-protocol.md` — understand GitHub SSOT
 2. Check `/archive/doctrines/` for any similar integrations
 3. Document lessons learned in `/archive/case-studies/` post-deployment
@@ -141,12 +141,11 @@ Central catalog of all archived knowledge and patterns.
 - `/prompts/` — Active specialist implementations
 
 **External references:**
-- Govini Ark: See `GOVINI_INTEGRATION.md`
 - COSMO-CVN72: See `COSMO 72 working copy` + `/archive/doctrines/cvn-maintenance-doctrine.md`
 - MCP Roadmap: See `COSMO_ARCHITECTURE_SUMMARY_MCP_STRATEGY.md`
 
 ---
 
-**Last Updated:** 2026-04-24
+**Last Updated:** 2026-04-25
 **Version:** 1.0
 **Status:** Initialization in progress
