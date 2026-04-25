@@ -1,5 +1,9 @@
 # Project COSMO-A: A Multi-Agent AI Ecosystem
 
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Model](https://img.shields.io/badge/model--agnostic-Claude%20%7C%20Gemini%20%7C%20Gemma-blueviolet)
+
 ## Overview
 
 COSMO-A (Agnostic AI Control System) is a multi-agent AI ecosystem designed for practical, real-world text processing and report generation. Developed as a solution for common data-handling challenges, this system automates the transformation of unstructured text into structured, actionable intelligence.
@@ -28,7 +32,6 @@ All specialist sub-agents within the ecosystem are built according to a codified
 
 ### 5. System Components & Prompts
 All agent prompts that define the COSMO-A ecosystem can be found in the dedicated [prompts directory](./prompts).
-.prompts).
 
 ## Case Studies & Iterative Development
 
@@ -40,5 +43,5 @@ This project emphasizes iterative development based on real-world operational fe
 *   [Case Study: Establishing the "Offline Source of Truth" Protocol](./CASE-STUDY-Source-of-Truth-Protocol.md)
 *   [Case Study: Iterative Development of the Meeting Summarizer Agent](./CASE-STUDY-Meeting-Summarizer-Iteration.md)
 
-* ---
+---
 *This project represents an ongoing effort in applied AI systems architecture and prompt engineering.*
