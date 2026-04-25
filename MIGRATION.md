@@ -39,7 +39,7 @@ Since OpenAI denied the export, we switch to active memory:
 ## Timeline
 - **Q2 2026:** Reconstruct and externalize the above three core patterns.
 - **Q3 2026:** Build specialist agents using reconstructed patterns as templates.
-- **Q4 2026:** Deploy COSMO-CVN72 v2 with new specialist agents to Govini Ark platform.
+- **Q4 2026:** Deploy COSMO-CVN72 v2 with new specialist agents.
 
 ## Notes
 - No external data loss; all knowledge is resident in Donnie's active work and notes.
