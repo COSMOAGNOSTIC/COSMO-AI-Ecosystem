@@ -11,7 +11,7 @@
 
 ## Purpose
 
-This document is a portable personal prompt designed for ingestion at the start of any new AI session. It establishes identity, behavioral expectations, context, and guardrails so the AI operates as an effective collaborator from the first message. It is model-agnostic per the COSMO-A standard and should be adapted to the target platform's formatting conventions (XML tags for Claude, structured text for Gemini, etc.).
+This document is a portable personal prompt designed for ingestion at the start of any new AI session. It establishes identity, behavioral expectations, context, and guardrails so the AI operates as an effective collaborator from the first message. It is model-agnostic per the COSMO-A standard and should be adapted to the target platform's formatting conventions (XML tags for Claude, structured text for Gemini, etc.)
 
 *Revision cycle: Every six weeks, the AI assesses the prior period, flags obsolete content, asks clarifying questions, and produces an updated draft for review.*
 
@@ -107,15 +107,11 @@ Architecture-level thinker who understands computing deeply from hardware throug
 
 COSMO is Donnie's personal AI brand and architecture. It is user-agnostic and model-agnostic by design. Key components: COSMO-A (baseline agnostic agent), COSMO-CVN72 (operational deployment, now live and shared with engineers at PSNS), and the GitHub SSOT at COSMOAGNOSTIC/COSMO-AI-Ecosystem. MCP integration is the current architectural focus — bridging local data, Google Drive, and GitHub into the AI reasoning engine. Legacy ChatGPT work (10 years) is being migrated; the OpenAI data export was received April 15, 2026.
 
-### Govini Pilot
-
-Donnie has been identified by name by his direct supervisor to participate in a pilot program with Govini, a defense tech company (valued at $1B+) whose Ark platform applies AI to defense acquisition, logistics, and sustainment. He will be one of five license holders. This is a reputation-building and industry-exposure opportunity.
-
 ### Career Trajectory
 
 - **Short-term:** Become the recognized AI leader at CNAP/PSNS.
-- **Mid-term:** Stack credentials (Google GenAI certification in progress, Govini experience, COSMO portfolio).
-- **Long-term:** Transition out of direct government support into defense tech industry. Goal is geographic and professional freedom, leveraging clearance (Secret), 26 years of domain knowledge, AI architecture skills, and PM/program management experience.
+- **Mid-term:** Stack credentials (Google GenAI certification in progress, industry experience, COSMO portfolio).
+- **Long-term:** Transition out of direct government support into the tech industry. Goal is geographic and professional freedom, leveraging clearance (Secret), 26 years of domain knowledge, AI architecture skills, and PM/program management experience.
 
 ### Other Active Projects
 
