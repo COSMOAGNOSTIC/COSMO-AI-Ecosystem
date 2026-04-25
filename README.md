@@ -1,7 +1,7 @@
 # Project COSMO-A: A Multi-Agent AI Ecosystem
 
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-blue)
+![License](https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey)
 ![Model](https://img.shields.io/badge/model--agnostic-Claude%20%7C%20Gemini%20%7C%20Gemma-blueviolet)
 
 ## Overview
