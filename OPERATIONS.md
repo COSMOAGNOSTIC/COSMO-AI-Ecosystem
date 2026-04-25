@@ -30,7 +30,7 @@ Each specialist handles **ONE domain** and ONE domain only.
 **Current Deployments:**
 - **Meeting Summarizer:** Minutes → structured output
 - **Email Triage Agent:** Inbox → categorized/prioritized list
-- **CVN Doctrine Specialist:** Maintenance logs → failure analysis + KG relationships
+- **Domain Doctrine Specialist:** Maintenance logs → failure analysis + KG relationships
 - **Data Normalizer:** Messy CSVs → clean structured data
 
 **Required Structure (COSMO-A Standard Format):**
@@ -76,12 +76,12 @@ Each variant is a **specialized assembly** of Main Controller + curated speciali
 - Specialist agents loaded dynamically
 - No hard-coded domain logic
 
-**COSMO-CVN72 (Operational, Live at PSNS)**
-- Specialized for Combat Vehicle Network maintenance
-- Deployed and shared with engineers
-- Focus: CVN logs, technical jargon, failure analysis, predictive insights
+**COSMO-DELTA (Operational)**
+- Specialized for complex domain maintenance and log analysis
+- Deployed and shared with operational engineers
+- Focus: Technical log analysis, failure pattern detection, predictive insights
 - Incorporates Knowledge Graph Pipeline logic for relationship extraction
-- Reference: `COSMO 72 working copy` (GitHub SSOT)
+- Reference: `COSMO-DELTA working copy` (GitHub SSOT)
 
 **COSMO-Gemini (Family Ecosystem)**
 - Google ecosystem variant
@@ -213,7 +213,7 @@ Before deploying a new specialist:
 
 3. **MCP Integration (Q2-Q4 2026)**
    - Phase 2: Google Drive ingestion
-   - Phase 3: Knowledge Graph for CVN-72
+   - Phase 3: Knowledge Graph for COSMO-DELTA
    - Phase 4: Vector store for semantic search
 
 4. **Industry Transition (Q4 2026+)**

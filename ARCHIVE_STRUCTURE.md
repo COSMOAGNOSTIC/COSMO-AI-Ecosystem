@@ -5,7 +5,7 @@ The `/archive/` directory is the **long-term knowledge store** for COSMO. It hol
 1. **Active doctrines** from COSMO deployments
 2. **Case studies** documenting architectural decisions
 3. **Meta-patterns** applicable across multiple domains
-4. **Extracted patterns** from CVN and other operational domains (as they emerge)
+4. **Extracted patterns** from COSMO-DELTA and other operational domains (as they emerge)
 
 All content is version-controlled in GitHub for audit trail and rollback.
 
@@ -19,7 +19,7 @@ All content is version-controlled in GitHub for audit trail and rollback.
 ├── doctrines/
 │   ├── email-analysis-doctrine.md              # How to triage email
 │   ├── meeting-summary-doctrine.md             # How to summarize meetings
-│   ├── cvn-maintenance-doctrine.md             # CVN log analysis (COSMO-CVN72)
+│   ├── domain-maintenance-doctrine.md          # Log analysis (COSMO-DELTA)
 │   ├── data-transformation-doctrine.md         # CSV/data cleaning
 │   └── knowledge-graph-extraction-doctrine.md  # How to build relationships
 │
@@ -65,14 +65,14 @@ Central catalog of all archived knowledge and patterns.
 |----------|------|--------|--------------|-------|
 | Email Analysis | `doctrines/email-analysis-doctrine.md` | [x] ACTIVE | 2026-04-20 | Donnie |
 | Meeting Summary | `doctrines/meeting-summary-doctrine.md` | [x] ACTIVE | 2026-04-20 | Donnie |
-| CVN Maintenance | `doctrines/cvn-maintenance-doctrine.md` | [x] ACTIVE | 2026-04-23 | Donnie |
+| Domain Maintenance | `doctrines/domain-maintenance-doctrine.md` | [x] ACTIVE | 2026-04-23 | Donnie |
 | Data Transformation | `doctrines/data-transformation-doctrine.md` | [ ] TODO | — | TBD |
 | Knowledge Graph Extraction | `doctrines/knowledge-graph-extraction-doctrine.md` | [ ] TODO | — | TBD |
 
 ## Case Studies
 
 | Case Study | File | Topic | Key Lesson |
-|------------|------|-------|-----------| 
+|------------|------|-------|-----------|
 | Source of Truth Protocol | `case-studies/source-of-truth-protocol.md` | Why GitHub as SSOT | Versioning prevents architectural drift |
 | Helpful Assistant Bias | `case-studies/helpful-assistant-bias.md` | Anti-pattern | Structure output trumps helpfulness |
 | COSMO-A Standard Format | `case-studies/cosmo-a-standard-format.md` | Consistency | All agents must follow same structure |
@@ -82,7 +82,7 @@ Central catalog of all archived knowledge and patterns.
 
 | Pattern | Domain | Status | Extracted | Purpose |
 |---------|--------|--------|-----------|---------|
-| TBD | CVN-72 | [ ] PENDING | — | To be identified from active work |
+| TBD | COSMO-DELTA | [ ] PENDING | — | To be identified from active work |
 | TBD | Financial Dashboard | [ ] PENDING | — | To be identified from active work |
 | TBD | Family Ecosystem | [ ] PENDING | — | To be identified from active work |
 ```
@@ -141,7 +141,7 @@ Central catalog of all archived knowledge and patterns.
 - `/prompts/` — Active specialist implementations
 
 **External references:**
-- COSMO-CVN72: See `COSMO 72 working copy` + `/archive/doctrines/cvn-maintenance-doctrine.md`
+- COSMO-DELTA: See `COSMO-DELTA working copy` + `/archive/doctrines/domain-maintenance-doctrine.md`
 - MCP Roadmap: See `COSMO_ARCHITECTURE_SUMMARY_MCP_STRATEGY.md`
 
 ---
