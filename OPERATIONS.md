@@ -145,7 +145,7 @@ User Input
 - Reduce reinvention, accelerate analysis
 
 **Phase 5 (2027+):** Enterprise Integration
-- MCP bridges COSMO to Govini Ark platform
+- MCP bridges COSMO to external platforms
 - Real-time data syncing
 - Audit trails and compliance reporting
 
@@ -163,7 +163,6 @@ User Input
 1. **Read `CLAUDE.md`** — Persona, tone, communication constraints
 2. **Read `MIGRATION.md`** — Current work status and reconstruction strategy
 3. **Read `OPERATIONS.md`** (this file) — Development hierarchy and patterns
-4. **Read `GOVINI_INTEGRATION.md`** — Pilot program status
 
 ### Cross-Model Compatibility
 - Any prompt must work on Claude, Gemini, local Gemma without rewrites
@@ -217,13 +216,13 @@ Before deploying a new specialist:
    - Phase 3: Knowledge Graph for CVN-72
    - Phase 4: Vector store for semantic search
 
-4. **Govini Ark Integration (Q4 2026)**
-   - COSMO-CVN72 v2 outputs to Ark platform
-   - Track pilot success metrics
-   - Build industry credentials for transition
+4. **Industry Transition (Q4 2026+)**
+   - Build credentials and experience
+   - Track deployment success metrics
+   - Document lessons learned
 
 ---
 
 **GitHub SSOT:** `COSMOAGNOSTIC/COSMO-AI-Ecosystem`
-**Last Updated:** 2026-04-24
+**Last Updated:** 2026-04-25
 **Version:** 1.0
