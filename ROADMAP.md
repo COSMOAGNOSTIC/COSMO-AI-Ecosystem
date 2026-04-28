@@ -1,111 +1,107 @@
-# COSMO Roadmap — Life & Career Path Tracker
-
-> **Last updated:** 2026-04-27  
-> **Owner:** Donnie Langford  
-> **SSOT:** This file is the canonical roadmap. Update here first.
+# COSMO Roadmap — Donnie Langford
+**Last updated:** 2026-04-27
+**SSOT for:** Path tracker · Anduril campaign · Learning stack · Financial dashboard · COSMO ecosystem
 
 ---
 
 ## North Star
 
-**Target company:** Anduril Industries  
-**Approach:** Wide net. Let recruiters guide swim lane selection.  
-**Core assets:** Active Secret clearance · 26 years Navy (FCCS/FCCM) · COSMO portfolio · Govini AI pilot · CNAP/PSNS AI lead reputation
+**Target:** Anduril Industries (wide net — all AI-adjacent roles)
+**Thesis:** Secret clearance + 26 years Navy combat systems + active AI portfolio (COSMO, Govini) + domain knowledge = rare profile. Let recruiters slot the swim lane.
+**Palmer Luckey hiring lens:** "I look for people who have done projects outside what their work paid them to do." COSMO is that project. Lead with it.
 
 ---
 
 ## Career Path
 
 | Status | Milestone |
-|---|---|
-| ✅ Done | Retired FCCS/FCCM — 26 years U.S. Navy |
+|--------|-----------|
+| ✅ Done | Retired FCCS/FCCM · 26 years Navy service |
 | 🔵 Active | Combat Systems Maintenance Coordinator · CNAP/PSNS |
-| 🔵 Active | Govini Ark pilot — one of 5 license holders · reputation play |
-| 🔵 Active | AI credential stack: Google GenAI cert (in progress), Python/pandas, COSMO portfolio |
-| 🔲 Next | Active Anduril campaign — recruiter outreach, LinkedIn, applications, network mapping |
-| 🔲 Future | Defense tech industry transition — AI program mgmt / systems integration |
+| 🔵 Active | Govini Ark platform · one of 5 license holders · AI reputation play |
+| 🔵 Active | AI credential stack (Google GenAI cert, Python/pandas, COSMO portfolio) |
+| 🟡 Next | Anduril active campaign — recruiter outreach, applications, network map |
+| 🟡 Next | Defense tech industry transition — AI PM / systems integration |
 
 ---
 
-## Anduril Campaign — Active Actions
+## Anduril Campaign Actions
 
-### Immediate (this week)
-- [ ] Map open Anduril roles to background — filter for clearance-preferred
-- [ ] Check SkillBridge eligibility — Anduril has active program; Navy E-8/E-9 = 60-day cap
-- [ ] Find Anduril recruiters on LinkedIn — connect with note leading with clearance + AI ops
-- [ ] Find Navy/DoD veterans already at Anduril — warm intro path
+### Immediate (now)
+- [ ] Map open roles to background — filter for clearance-preferred, AI/ops/PM/integration
+- [ ] Check SkillBridge eligibility — Anduril has active program; Navy E-8/E-9 = 60 days max
+- [ ] Monitor AI Grand Prix — open skills competition, winner fast-tracks to interview
 
-### Near-term
-- [ ] Tailor resume using Anduril language: Lattice OS, autonomous systems, AI integration, mission systems
-- [ ] Build Anduril intel file: products, contracts, culture, Palmer Luckey hiring philosophy
-- [ ] Monitor AI Grand Prix competition status (skills-based fast-track to interview)
-- [ ] Draft and send first recruiter outreach message
+### This week
+- [ ] LinkedIn: find Anduril recruiters — connect with note highlighting clearance + AI ops
+- [ ] LinkedIn: map Navy/DoD veterans already at Anduril — warm intro path
+- [ ] Build Anduril intel file — products, Lattice OS, contracts, culture, open roles
 
-### Palmer Luckey hiring lens
-> "I look for people who have done projects outside of what their work paid them to do."
-> COSMO is that project. Lead with it — not rank, not rate.
-
----
-
-## Learning & Credential Stack
-
-| Item | Status | Notes |
-|---|---|---|
-| Google GenAI cert | 🔵 In progress | Gemini ecosystem · cloud AI |
-| Python / pandas | 🔵 Active | Applied learning via LM Studio |
-| COSMO portfolio | 🔵 70% | GitHub public · proof of work |
-| Govini / Ark | 🔵 Active | Live at CNAP/PSNS · AI for defense acquisition |
-| Next cert (TBD) | 🔲 Scoped | AWS, CompTIA AI+, or Anduril-adjacent |
-
-> Goals and motivation: placeholder — add when ready.
+### Next
+- [ ] Tailor resume for Anduril language — Lattice OS · autonomous systems · AI integration
+- [ ] Submit first application(s)
+- [ ] Schedule LinkedIn post cadence — credential milestones, COSMO work, Govini insights
 
 ---
 
-## Financial Dashboard — Parallel Track
+## Learning Stack
 
-**Status:** Scoped, not started. Runs in parallel with Anduril campaign.  
-**Quality bar:** Live connected. Not a toy. Willing to take time to get it right.  
-**Known constraint:** TSP cannot connect via API — manual entry only.
+| Credential | Status | Priority |
+|------------|--------|----------|
+| Google GenAI certification | In progress (~55%) | High |
+| Python / pandas | Active learning (~30%) | Medium |
+| COSMO portfolio (public GitHub) | ~70% portfolio-ready | High |
+| Govini / Ark platform | Live, active | High |
+| Next cert (TBD) | Not started | Evaluate Q3 2026 |
 
-### Platform decision (pending)
-Options under evaluation:
-- **Monarch Money** — best-in-class for military/multi-income households, Plaid-connected
-- **Copilot** — clean UI, strong categorization, Mac/iOS native
-- **Custom COSMO build** — Plaid API + dashboard artifact — most control, most maintenance
-- **Decision criteria:** Reliability > features. If it breaks weekly, it's out.
+**Goals and motivation:** *(placeholder — add personal targets here)*
 
-### Accounts to connect
+---
+
+## Financial Dashboard
+
+**Status:** Scoped, not started. Runs in parallel with Anduril campaign.
+**Quality bar:** Live connected. Realistic. Stable over toys. Accept longer build time for consistent output.
+**TSP:** Manual only — cannot connect via API.
+
+### Account connection target list
 - [ ] Checking / Savings
 - [ ] Credit cards
 - [ ] Investment accounts
 - [ ] Military retirement (DFAS)
-- [ ] TSP (manual only)
-- [ ] Amber RE income — Better Properties Kitsap
-- [ ] VA disability (TBD — confirm API availability)
+- [ ] TSP (manual)
+- [ ] Amber RE income (Better Properties Kitsap)
+- [ ] VA disability
+
+### Platform decision (next session)
+Options to evaluate: Monarch Money, Copilot, Tiller + Google Sheets, custom Plaid integration.
+Decision criteria: stability, API reliability, mobile access, dual-income (Donnie + Amber) support.
 
 ---
 
-## COSMO Ecosystem Status
+## COSMO Ecosystem
 
-| Item | Status | Notes |
-|---|---|---|
-| Architecture | ✅ Done | GitHub SSOT · MCP layer · model-agnostic · Claude primary |
-| Amber master prompt | ✅ Done | prompts/ folder · RE-focused |
-| Gmail triage | ✅ Done | Both accounts · backfill still manual |
-| Repo cleanup | ✅ Done | "COSMO 72 working copy" deleted 2026-04-27 |
-| COSMO-CVN72 | 🔵 Live | Shared with PSNS engineers · active |
-| Financial dashboard | 🔲 Next | Platform TBD · parallel with Anduril |
-| COSMO-R (Real Estate) | 💤 Idle | Amber prompt live · resume when she's ready |
+| Status | Item |
+|--------|------|
+| ✅ | Architecture defined — GitHub SSOT, MCP layer, model-agnostic, Claude primary |
+| ✅ | Amber master prompt — complete, in prompts/ |
+| ✅ | Gmail triage deployed — both accounts (backfill still manual) |
+| ✅ | COSMO-CVN72 — live, shared with PSNS engineers |
+| ✅ | Repo cleanup — "COSMO 72 working copy" deleted (2026-04-27) |
+| 🔵 | Financial dashboard — next defined build |
+| 💤 | COSMO-R (Real Estate) — idle until Amber ready |
+
+### Platform stack
+- **Claude** (paid, primary) — architecture, COSMO dev, heavy sessions
+- **Gemini** (paid) — Google ecosystem, family hub
+- **LM Studio** (local) — lightweight/Python iteration
+- **ChatGPT** — deprecated; history exported 2026-04-15; archive pending
 
 ---
 
-## Session Log
-
-### 2026-04-27
-- Established Anduril as explicit career target
-- Defined path tracker concept and built interactive dashboard artifact
-- Scoped financial dashboard as live-connected parallel track
-- Confirmed COSMO-R goes idle
-- Removed: Big Red Box (deferred), Golf slice (deleted), Govini (tracking only — not actionable)
-- Repo: deleted "COSMO 72 working copy" (CVN-72 specific, named violation)
-- Confirmed prompts/ folder clean — no PII
+## Repo Hygiene Rules (standing)
+- No "72" or ship-specific identifiers in public repo
+- No personal PII in public files — backed up to Google Drive (donald.langford74)
+- Personal prompts: Google Drive only, not GitHub
+- COSMO-R: idle lane, do not delete architecture
+- Check CLAUDE.md and MIGRATION.md before any session pivot
