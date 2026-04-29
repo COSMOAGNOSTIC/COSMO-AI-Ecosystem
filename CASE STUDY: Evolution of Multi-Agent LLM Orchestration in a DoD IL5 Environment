@@ -1,7 +1,7 @@
-# CASE STUDY: Evolution of Multi-Agent LLM Orchestration in a DoD IL5 Environment
+# CASE STUDY: Evolution of Multi-Agent LLM Orchestration in a Secure Sandbox Environment
 
 ## 1. Executive Summary
-This document outlines the architectural evolution of the **COSMO** (Cognitive Operational System for Maritime Operations) AI ecosystem. Operating within a heavily constrained Department of War (DoW) Impact Level 5 (IL5) network, initial monolithic prompt designs suffered from context window collapse and GUI-induced data loss. 
+This document outlines the architectural evolution of the **COSMO** (Cognitive Operational System for Maritime Operations) AI ecosystem. Operating within a heavily constrained Impact Level 5 (IL5) network, initial monolithic prompt designs suffered from context window collapse and GUI-induced data loss. 
 
 Through iterative engineering, the system was refactored into a modular, Hub-and-Spoke architecture utilizing deterministic Python execution (Pandas) for data, isolated parsing engines for unstructured text, and a dedicated `DEV-AGENT` to manage Retrieval-Augmented Generation (RAG) dependencies and version control.
 
