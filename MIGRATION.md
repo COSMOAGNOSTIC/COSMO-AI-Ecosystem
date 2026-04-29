@@ -63,17 +63,17 @@ Tracking the extraction, cleaning, and porting of legacy work into COSMO-AI-Ecos
 ## Session Notes
 
 ### 2026-04-27 — Path Pivot Session
-- Anduril Industries established as explicit career target
+- xxx Industries established as target
 - ROADMAP.md created as canonical path tracker SSOT
 - Financial dashboard scoped as live-connected parallel track (not a toy — quality bar is high)
-- COSMO-R set to idle — Amber prompt live, resume when she's ready
-- Removed from active tracking: Big Red Box (deferred), Golf slice (deleted), Govini (tracking only)
-- Repo audit complete: no PII in prompts/, "COSMO 72 working copy" deleted
+- COSMO-R set to idle — Realtor prompt live, resume when ready
+- Removed from active tracking: Big Red Box (deferred), Golf slice (deleted), Work Project (tracking only)
+- Repo audit complete: no PII in prompts/, "COSMO XX working copy" deleted
 - Path tracker dashboard artifact built in Claude — tab-based, interactive
 
 ### Earlier sessions
-- ChatGPT data exported ~12 months history (2026-04-15)
+- data exported ~xx months history (2026-04-15)
 - LinkedIn profile overhauled and saved as Google Doc
-- Personal prompt files removed from public repo, backed up to Google Drive (donald.langford74)
+- Personal prompt files removed from public repo, backed up to Google Drive (other one)
 - Gmail triage deployed across both accounts with tiered filters
 - TOKEN_ECONOMY.md and Work/Reward Decision Filter committed to repo
