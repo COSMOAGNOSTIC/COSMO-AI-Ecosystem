@@ -17,7 +17,7 @@ Through iterative engineering, the system was refactored into a modular, Hub-and
 We abandoned the monolithic "Brain" pattern in favor of specialized nodes:
 1.  **MASTER PERSONA (The Router/Hub):** Acts as the cognitive partner for the System Architect, synthesizing outputs and drafting correspondence.
 2.  **COSMO_PANDA (The Math Engine):** A standalone node utilizing native Gemini 3.1 Pro Python execution. It bypasses linguistic comparison entirely, utilizing `pandas` dataframes to merge supply spreadsheets (e.g., matching CASREPs) with 100% deterministic accuracy.
-3.  **COSMO_A / COSMO_72 (The Parsers):** Isolated nodes strictly governed by Layer 2 Doctrines to parse unstructured military text (JSNs, Naval Messages) into formatted intelligence reports.
+3.  **COSMO_A / COSMO_DELTA (The Parsers):** Isolated nodes strictly governed by Layer 2 Doctrines to parse unstructured military text (JSNs, Naval Messages) into formatted intelligence reports.
 
 ### B. The DEV-AGENT & Strict Version Control
 To bypass the GUI overwrite issue, the active chat window was abandoned as a development environment. A dedicated `DEV-AGENT` was created to act as the compiler and version control system.
